@@ -1,0 +1,92 @@
+html {
+  background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button h3 {
+  margin-top: 12%;
+  font-size: 48px;
+  text-shadow: 1px 1px 1px;
+  color: #143040;
+}
+
+button h3:hover {
+  color: #fff;
+}
+
+button h3 {
+  -webkit-transition-property: color;
+  -webkit-transition-duration: .3s;
+  -moz-transition-property: color;
+  -moz-transition-duration: .3s;
+  transition-property: color;
+  transition-duration: .3s;
+}
+
+.digit {
+  display: inline-block;
+  height: 84.9px;
+  width: 25%;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 1px;
+}
+
+.digit:hover {
+  background-color: #143040;
+}
+
+.digit {
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: .3s;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: .3s;
+  transition-property: background-color;
+  transition-duration: .3s;
+}
+
+.title {
+  text-align: center;
+}
+
+.title-text {
+  font-size: 48px;
+  font-variant: small-caps;
+  font-weight: 700;
+  color: #143040;
+  letter-spacing: 10px;
+  border-bottom: 2px solid;
+}
+
+.calc-body {
+  width: 40%;
+  height: 400px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #444;
+  border-radius: 10px;
+}
+
+.input-area {
+  height: 60px;
+  border-bottom: 1px solid;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+.input-area h3 {
+  position: absolute;
+    top: 16.5%;
+    right: 32%;
+  margin-right: auto;
+  font-size: 48px;
+  color: #143040;
+}
